@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Esto es un comentario-->
+    <head>
+        <title> Pagina de Gatitos Estresados</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet"> 
+        <!--stylesheet es la relacion que tiene con la hoja de archivos-->
+
+        <!--sirve para cambiar el tipo de letra desde Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <h1>Gatitos Estresados</h1>
+        <h2> Imágenes:</h2>
+
+        <!--Imagen desde google-->
+        <img src="https://i.pinimg.com/originals/23/1e/c7/231ec7e73424e49325eef84e9d0134d1.jpg">
+
+            <!--Imagen desde computadora-->
+            <img src="imagenes/gatitollorando.jpg">
+
+            <!--Crear enlaces externos-->
+            <!--p es parrafo del texto-->
+            <p>Si quieres ver más imágenes de gatitos, <a href="https://www.dogalize.com/wp-content/uploads/2017/03/fotos-de-gatos-graciosos-gato-dormido-con-la-lengua-fuera.jpg" target="_blank">da click en este enlace</a>.</p>
+            <!--El elemento a es un ancla, que te lleva a algun lado, el target funciona para que la imagen se redirija a una nueva pagina-->
+
+            <h3>Lista de Gatitos</h3>
+
+            <p>3 cosas que los gatitos <strong>aman</strong></p> <!--El strong sirve para poner en negrita las palabras-->
+
+            <!--Lista Ordenada-->
+            <ol> <!--Order list-->
+                <li>Arañar</li> <!--li significa list item, agrega numeros a la lista-->
+                <li>Dormir</li>
+                <li>Comer</li>
+            </ol>
+
+            <p>3 cosas que los gatitos <i>odian</i></p> <!--El elemento i sirve para poner la palabra en cursiva-->
+
+            <!--Lista Desordenada-->
+            <ul> <!--Unordered list-->
+                <li>Ruidos fuertes</li>
+                <li>Caricias</li>
+                <li>Ruidos fuertes</li>
+            </ul>
+
+            <!--Formularios-->
+            <form>
+                <!--Form con botones de radio-->
+                <p>¿Tu gatito es cachorro o es adulto?</p>
+                <label>
+                    <input 
+                        id="cachorro" 
+                        type="radio" 
+                        value="cachorro" 
+                        name="cachorro-adulto" >Cachorro
+                        <!--el id asigna un identificador unico, type crea el boton de seleccionar, value es para definir el valor que se va a enviar y el name es para asignar un nombre al formulario-->
+                </label>
+                <br> <!--salto de renglon-->
+                <label>
+                    <input 
+                        id="adulto" 
+                        type="radio" 
+                        value="adulto" 
+                        name="cachorro-adulto">Adulto
+                        <!--el id asigna un identificador unico, type crea el boton de seleccionar, value es para definir el valor que se va a enviar y el name es para asignar un nombre al formulario-->
+                </label>
+
+        <!--Form con casillas de verificaacion-->
+                <p>¿Qué tipo de personalidad tiene tu gato?</p>
+                <label>
+                    <input id="enojon" 
+                    type="checkbox"
+                    value="enojon"
+                    name="personalidad" 
+                    checked>Enojón
+                </label>
+                <br>
+                <label>
+                    <input id="perezoso" 
+                    type="checkbox"
+                    value="perezoso"
+                    name="personalidad" 
+                    checked>Perezoso
+                </label>
+                <br>
+                <label>
+                    <input id="chillon" 
+                    type="checkbox"
+                    value="chillon"
+                    name="personalidad" 
+                    checked>Chillón
+                </label>
+            </form>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx" target="_blank"> Tecnolochicas PRO</a></small></p> 
+    </footer>
+</html>
+
+<!--en caso de tener imagenes de distinto tamaño usamos img class="img1" despues ponemos el src-->

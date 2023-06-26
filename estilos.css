@@ -1,0 +1,37 @@
+body
+{
+    /*background-color:bisque; color de fondo por defaut */
+    background-color: #946e4c; /*color de fondo con un codigo de color*/
+    color:lemonchiffon; /*con este codigo cambiamos el color de las letras*/
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-family nos cambia la fuente de la pagina por defaut*/
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+h3
+{
+    color:lightgoldenrodyellow; /*funciona para poner un color al texto seleccionado*/
+    font-size: 30px; /*funciona para cambiar el tamaño de la fuente*/
+}
+
+h1{text-align: center;} /*funciona para centrar el texto*/
+
+h1, p /*funciona para no ir palabra por palabra*/
+{
+    color:palegoldenrod;
+}
+
+img /*nos servirá para modificar las fotos*/
+{
+    width: 400px; /*modificar el alto*/
+    height: 400px; /*modificar el ancho*/
+    border-style:dashed; /*colocar borde*/
+    border-color:hsl(43, 80%, 64%);
+    margin-left: 40px; /*para que se separen las imagenes de los lados*/
+    margin-bottom: 30px; /*para que se separen las imagenes del texto*/
+    padding: 15px; /*ajustar la imagen hacía adentro*/
+}
+
+a,small
+{
+    color: lightyellow;
+}
